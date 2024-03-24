@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+hr {
+    background-color: black;
+    padding: 1.2px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+/** Lista **/
+
+ol, ul {
+    list-style-position: inside;
+}
+ul {
+	list-style-type: square;
+}
+
+.Ltitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+dd, dl {
+}
+
+dl{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/** Fim Lista**/
