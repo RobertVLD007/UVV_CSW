@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(93, 186, 223, 0.6);
+}
+
+h1 {
+    color: white;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+h2 {
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+a {
+    color: blue;
+    margin: 8px;
+}
+a:hover {
+    color: blueviolet;
+}
