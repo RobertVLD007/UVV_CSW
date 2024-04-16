@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: lightgreen;
+    background-color: darkred;
+
+    transition: .5s;
+}
+h1:hover {
+    scale: 1.3;
+}
