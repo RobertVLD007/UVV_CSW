@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    margin: 20px;
+
+    font-size: 70px;
+    font-family: 'Sedan', serif;
+}
+
+h2 {
+    margin: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 10px;
+
+    font-family: 'Lora', serif;
+}
+
+img {
+    height: 250px;
+}

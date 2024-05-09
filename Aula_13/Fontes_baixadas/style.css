@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Gimme Danger';
+    src: url(fontes/Gimme_Danger.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'LLCOOPER';
+    src: url(fontes/LLCOOPER.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Top Secret';
+    src: url(fontes/top_secret.otf) format(opentype);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    margin: 20px;
+
+    font-size: 70px;
+    font-family: 'Top Secret', serif;
+}
+
+h2 {
+    margin: 10px;
+
+    font-family: 'Gimme Danger', sans-serif;
+}
+
+p {
+    margin: 10px;
+
+    font-family: 'LLCOOPER', serif;
+}
+
+img {
+    height: 250px;
+}
