@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(160deg, black, purple);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 17em;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 1px 1px .3px white;
+}
+
+                /*Links geral*/
+a {
+    color: white;
+
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:active {
+    color: rgb(194, 162, 194);
+}
+
+a:hover {
+    font-size: 1.7em;
+}
+
+a::before {
+    content: '♬';
+}
+a::after {
+    content: '♬';
+}
+
+                /*Link dos sites*/
+a.spotify:hover {
+    color: green;
+}
+a.youtube:hover {
+    color: red;
+}
+a.amazon:hover {
+    color: blue;
+}
+
+a#github::before {
+    content: '♠';
+}
+a#github::after {
+    content: '♠';
+}
+a#github:hover {
+    text-shadow: white 1px 1px 10px;
+    color: rgb(121, 103, 223);
+}
